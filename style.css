@@ -9,15 +9,25 @@
 
 body {
     background-color: #444;
+    font-size: 16pt;
 }
 .brand-font {
     font-family: 'hylia_serif_betaregular', cursive;
+
 }
-.hero {
+.hero-front {
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/Hateno.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hero-feature {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/kakariko.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -38,4 +48,10 @@ body {
 .featCharacter {
     background-color: whitesmoke;
     color: #222;
+    padding-bottom: 10px;
+}
+.featCharacterPhoto {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
 }
