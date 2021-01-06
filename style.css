@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
 @font-face {
     font-family: 'hylia_serif_betaregular';
     src: url('./Hylia\ Serif\ Beta\ v0-009/hyliaserifbeta-regular-webfont.woff2') format('woff2'),
@@ -10,6 +10,7 @@
 body {
     background-color: #444;
     font-size: 16pt;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .brand-font {
     font-family: 'hylia_serif_betaregular', cursive;
@@ -62,7 +63,7 @@ body {
     font-family: 'hylia_serif_betaregular', cursive;
     position: relative;
     top: 50%;
-    left: 75%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: white;
     text-shadow: 2px 3px black;
