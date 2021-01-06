@@ -13,7 +13,9 @@ body {
 }
 .brand-font {
     font-family: 'hylia_serif_betaregular', cursive;
-
+}
+.zindex {
+    z-index: 1000;
 }
 .hero-front {
     height: 500px;
@@ -64,6 +66,7 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     text-shadow: 2px 3px black;
+    z-index: 999;
 }
 .intro {
     background-color: whitesmoke;
