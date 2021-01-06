@@ -115,3 +115,8 @@ body {
 .pad {
     padding: 10px 10px 10px 10px;
 }
+@media only screen and (min-width: 200px) and (max-width: 450px){
+    .featCharacterPhoto{
+        width: 100%;
+        height: auto;
+    }
